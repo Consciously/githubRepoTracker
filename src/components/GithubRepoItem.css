@@ -1,0 +1,18 @@
+.github-user__result li {
+	margin-bottom: 1rem;
+}
+
+.github-user__result li a {
+	display: block;
+	background-color: #ac353d;
+	color: #1c2c30;
+	text-align: center;
+	font-weight: 700;
+	padding: 1rem 2rem;
+	border-radius: 1.25rem;
+	transition: background-color 0.2s ease-in;
+}
+
+.github-user__result li:hover a {
+	background-color: #b83941;
+}

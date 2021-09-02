@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300;400;700&display=swap');
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #48717c;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #121212;
+	line-height: 1.5;
+	overflow-x: hidden;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: clamp(1.8rem, 4vw, 3.2rem);
+	text-align: center;
+}
+
+h2 {
+	font-size: clamp(1.6rem, 4vw, 2.8rem);
+	text-align: center;
+}
+
+h3 {
+	font-size: clamp(1.4rem, 4vw, 2.6rem);
+	text-align: center;
+}
+
+p {
+	font-size: clamp(1rem, 4vw, 1.3rem);
+}
+
+.github-user__header {
+	background-color: #1c2c30;
+	height: 30vh;
+}
+
+.github-user__header h1 {
+	color: #ac353d;
+	font-family: 'Bungee Shade';
+	padding: 1rem 2rem;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.github-user__content {
+	padding-top: 2rem;
+}
+
+.github-user__error {
+	margin-top: 4rem;
+}
+
+.github-user__error p {
+	background-color: #ac353d;
+	padding: 2rem 1rem;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 1.25rem;
+}

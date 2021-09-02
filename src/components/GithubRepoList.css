@@ -1,0 +1,22 @@
+.github-user__result {
+	padding: 2rem;
+	margin-top: 2rem;
+	width: 100%;
+}
+
+.github-user__result h2 {
+	background-color: #1c2c30;
+	color: #a1a1a1;
+	padding: 1rem 2rem;
+	border-radius: 1.25rem;
+}
+
+.github-user__result h3 {
+	padding: 0 1rem 1rem 0;
+	margin-bottom: 2rem;
+	color: #1c2c30;
+}
+
+.github-user__result ul {
+	margin-top: 4rem;
+}
